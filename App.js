@@ -1,7 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, Image, Button } from 'react-native';
-import { Header } from 'react-native/Libraries/NewAppScreen';
+import  Header  from './componentes/Header.js';
+import  Body  from './componentes/Body.js';
+import  Footer  from './componentes/Footer.js';
 
  export default class App extends React.Component{
     
@@ -26,9 +28,9 @@ import { Header } from 'react-native/Libraries/NewAppScreen';
         return(
             <View style = {{marginTop:20}}>
                <this.Button></this.Button>
-               <this.Header></this.Header>
-               <this.Body></this.Body>
-               <this.Footer></this.Footer>
+               <Header></Header>
+               <Body></Body>
+               <Footer></Footer>
                 <Text>Hello Git!</Text>
                <Image style={{width:50,height:100}} 
                source= {{uri:'Link da image'}}
@@ -63,3 +65,5 @@ const Button = () =>{
 // Body= Meio ou melhor o corpo do app!
 // Footer= Bem dizer o meio para o final!
 // marginTop= Margin de um objeto para o outro!
+// Criar Pasta para ter uma inteiração melhor!, Há os comandos
+// Sempre usar o Import para pastas separadas não esquecer! Ex:import  Header  from './componentes/Header.js';
