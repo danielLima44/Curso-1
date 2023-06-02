@@ -7,22 +7,6 @@ import  Footer  from './componentes/Footer.js';
 
  export default class App extends React.Component{
     
-    Header = () =>{
-        return(
-            <Text> Hello! </Text>
-        );
-    }
-    
-    Body = () =>{
-        return(
-        <Text> World! </Text>
-        );
-    }
-    Footer = () =>{
-        return(
-        <Text> My World! </Text>
-        );
-    }
 
     render(){
         return(
