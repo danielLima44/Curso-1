@@ -4,9 +4,9 @@ import { Text, View , Image, Button} from 'react-native';
 
 Body = () =>{
     return(
-        <View>
+        <View style={{backgroundColor:'#090',padding:30,flex:1,flexDirection:'row',flexWrap:'wrap'}}> 
        
-        <Text style={{textAlign:'center',frontSize:30,color:'white'}}> adjetivo
+        <Text style={{textAlign:'center',frontSize:'50',color:'white', width:'70%',paddingLeft:20,paddingRight:20}}> adjetivo
 Pronuncia-se: /têsto/. Característica de destemido, determinado; que não teme do perigo.
 Intransigente, rígido; que não permite brincadeira.
 Característica do que é ou está seguro, preso, estável, rígido, teso.
@@ -36,7 +36,11 @@ O jogador aguarda o resultado de seu julgamento, também na CAS, realizado no di
 Folha de S.Paulo, 22/07/2011
 A instituição com o pior desempenho no testo da EBA foi o ATEBank, da Grécia, que também teve um segundo banco reprovado, o EFG ambos estatais.
 Folha de S.Paulo, 16/07/2011
- /</Text>
+ /</Text> 
+     <Image style={{width:90,height:90}} 
+     source={{uri:'https://avatars.githubusercontent.com/u/135070260?v=4'}}>
+
+     </Image>
         </View> 
       
         );

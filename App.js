@@ -10,22 +10,16 @@ import  Footer  from './componentes/Footer.js';
 
     render(){
         return(
-            <View style = {{marginTop:20}}>
-               <this.Button></this.Button>
-               <Header></Header>
-               <Body></Body>
-               <Footer></Footer>
-                <Text>Hello Git!</Text>
-               <Image style={{width:50,height:100}} 
-               source= {{uri:'Link da image'}}
-               />
-                </View>
-        );
-    }
-}
-         
-
-
+          <ScrollView style={{marginTop:20,flex:1}} contentContainerStyle={{justifyContent:'center',alignItems:'center',flex:1}}>
+          <Header></Header> 
+          <Body></Body>
+          <Footer></Footer>
+          <Botao></Botao>
+          </ScrollView>
+           );
+          }  
+         }
+      
 const Button = () =>{
         return(
             <Button title="Click"></Button>
@@ -54,3 +48,5 @@ const Button = () =>{
 // Aprendemos a centralizar o texto com o comando! "textAling"
 // mudar o texto "frontSize"
 // mudar a cor da fonte! "color"
+// Flexbox= utilizar em "View" é "Text"
+// ScrollView= para uzar o Scroll
