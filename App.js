@@ -51,3 +51,6 @@ const Button = () =>{
 // marginTop= Margin de um objeto para o outro!
 // Criar Pasta para ter uma inteiração melhor!, Há os comandos
 // Sempre usar o Import para pastas separadas não esquecer! Ex:import  Header  from './componentes/Header.js';
+// Aprendemos a centralizar o texto com o comando! "textAling"
+// mudar o texto "frontSize"
+// mudar a cor da fonte! "color"
