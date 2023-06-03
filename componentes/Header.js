@@ -1,12 +1,24 @@
 import React from 'react';
-import { Text, View , Image, Button} from 'react-native';
+import { Text, View , Image, Button, StyleSheet} from 'react-native';
+import { ImageBackground } from 'react-native-web';
 
 Header = ()=>{
     return(
-            <View style={{backgroundColor:'#809',padding:30}}>   
-        <Text style={{textAlign:'center',frontSize:30,color:'white',width:'100%'}}> Inicio/ Padrão /</Text> 
+            <View style={styles.view}>   
+        <Text style={ styles.textStyle }> Inicio/ Padrão /</Text> 
         </View>
     );
    } 
-    
-    export default Header;
+     const styles = StyleSheet.create ({
+    view:{
+       ImageBackground:'#838',
+       padding:20,width:'100%',
+    },
+
+       textStyle:{
+        textAlign:'center',
+        fontSize:30,
+        color:'black',
+    },
+});
+    export default Header
