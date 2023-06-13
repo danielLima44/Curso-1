@@ -51,3 +51,4 @@ const Button = () =>{
 // Flexbox= utilizar em "View" é "Text"
 // ScrollView= para uzar o Scroll
 // StyleSheet= Uma maneira de deixar organizado, Obs: sempre que terminar usar view{}, text{},
+// Pasta Style fora de dá export é permitir o ccodigo ficar mais clean!
